@@ -34,10 +34,16 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 1.2125723353618874,
-          "pitch": 1.5127701026174378,
+          "yaw": -0.5413812629587937,
+          "pitch": -0.10400763762329746,
           "rotation": 0,
           "target": "1-img_20231020_163022_00_033_pureshot"
+        },
+        {
+          "yaw": -0.5382171164431302,
+          "pitch": 0.0906931157794375,
+          "rotation": 3.141592653589793,
+          "target": "2-img_20231020_162520_00_028"
         }
       ],
       "infoHotspots": []
@@ -76,8 +82,50 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -2.7664274307077044,
-          "pitch": 1.546639635060501,
+          "yaw": -0.9846824165948931,
+          "pitch": -0.10933715898726604,
+          "rotation": 21.991148575128566,
+          "target": "0-img_20231020_162825_00_032_pureshot"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "2-img_20231020_162520_00_028",
+      "name": "IMG_20231020_162520_00_028",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        },
+        {
+          "tileSize": 512,
+          "size": 4096
+        }
+      ],
+      "faceSize": 2992,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -0.32957991668731523,
+          "pitch": 0.05874108844487935,
           "rotation": 0,
           "target": "0-img_20231020_162825_00_032_pureshot"
         }
@@ -89,7 +137,7 @@ var APP_DATA = {
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": true,
-    "fullscreenButton": false,
-    "viewControlButtons": false
+    "fullscreenButton": true,
+    "viewControlButtons": true
   }
 };
